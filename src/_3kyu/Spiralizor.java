@@ -1,7 +1,7 @@
 package _3kyu;
 
 public class Spiralizor {
-    static int[][] spiralize(int size) {
+    public static int[][] spiralize(int size) {
         int spiral[][] = new int[size][size];
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
