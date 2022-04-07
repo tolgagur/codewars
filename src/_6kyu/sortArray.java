@@ -4,9 +4,7 @@ import java.util.Arrays;
 
 public class sortArray {
 
-    public static void main(String[] args) {
-        System.out.println(sortArray(new int[]{ 5, 3, 1, 8, 0 }));
-    }
+
     public static int[] sortArray(int[] array) {
         int number = Integer.MAX_VALUE;
         int[] ints = new int[array.length];
